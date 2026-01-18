@@ -10,7 +10,7 @@ So this is the source code...
 ## What was the site:
 It was a site for my **personal projects**.
 People could **read documents** and **download apps** I made from there.
-I was using [www.duckdns.org](url) for DNS,
+I was using [https://www.duckdns.org](url) for DNS,
 **nginx** for server (software),
 my **manjaro linux** personal computer as server(hardware)
 and simple **HTML**, **CSS**, **JS** and **BASH** for the site.
