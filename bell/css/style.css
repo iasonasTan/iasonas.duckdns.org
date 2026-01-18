@@ -1,0 +1,57 @@
+@font-face {
+    font-family: libertinus;
+    src: url("../res/libertinus_font.ttf");
+}
+
+body.day {
+    background: #fff;
+    color: #000;
+}
+
+body.night {
+    background: #000;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-size: 60px;
+    font-family: libertinus;
+    font-weight: bolder;
+}
+
+.center {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="checkbox"] {
+    accent-color: #000;
+}
+
+#showSecsLabel{
+    font-family: libertinus;
+}
+
+#home_btn {
+    margin: 10px;
+    color: whitesmoke;
+    background-color: rgb(32, 32, 32);
+    padding: 7px;
+    border-radius: 10%;
+    width: fit-content;
+    visibility: hidden;
+}

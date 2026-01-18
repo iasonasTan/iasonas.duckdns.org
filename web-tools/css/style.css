@@ -1,0 +1,83 @@
+body {
+    background-image: url(../res/wallpaper.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    color: #1b1b1ba2;
+    cursor: url('../res/cursor.cur'),auto;
+    background-attachment: fixed;
+}
+
+.parent-div {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px; 
+    margin: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+
+    backdrop-filter: blur(8px);
+    border: solid 1px #ffffff;
+}
+
+.output-div {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 10px;  */
+    margin: 10px;
+    
+    margin-bottom: 10px;
+
+    /* filter: blur(8px); */
+    backdrop-filter: blur(8px);
+    border: solid 1px #ffffff;
+
+}
+
+.console-div {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px; 
+    margin: 10px;
+
+    width: 50%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 20px;
+    
+    backdrop-filter: blur(8px);
+    border: solid 1px #ffffff;
+}
+
+.console-idk {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    /* filter: blur(8px); */
+    backdrop-filter: blur(8px);
+    border: solid 1px #ffffff;
+}
+
+.space-on-top {
+  border: solid 73px #00ff0000;
+  padding: 10px;
+
+  cursor: url('Elite Horizontal.cur'),auto;
+
+}

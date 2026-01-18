@@ -1,0 +1,27 @@
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.2); }
+    100% { transform: translate(1.2); }
+}
+
+@keyframes slideIn {
+    0% { transform: translate(0); }
+    19% { transform: translateX(-30%); }
+    50% { transform: translateX(0); }
+    /* 100% { transform: translateX(30%); } */
+}
+
+#m4:hover { animation: slideIn 2s; }
+#m3:hover { animation: slideIn 2s; }
+#m2:hover { animation: slideIn 2s; }
+#m1:hover { animation: slideIn 2s; }
+#m0:hover { animation: slideIn 2s; }
+#clearButton:hover { animation: bounce 2s; }
+#output:hover { animation: bounce 2s; }
+button:hover { animation: pulse 2s; }

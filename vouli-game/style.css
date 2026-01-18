@@ -1,0 +1,61 @@
+#root {
+    max-width: fit-content;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+body {
+    background-color: hsl(0, 0%, 22%);
+    font-family: serif;
+    color: white;
+}
+
+#link_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#card {
+    margin: 10px;
+    padding: 13px;
+    border-radius: 10px;
+    background: linear-gradient(to right, hsl(203, 14%, 30%), hsl(200, 9%, 19%));
+    border: 2px solid hsl(0, 0%, 73%);
+}
+
+#name {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#download {
+    background-color: hsl(17, 3%, 41%);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    border: solid 1px hsl(0, 0%, 70%);
+    color: white;
+}
+#download:hover {
+    background-color: hsl(9, 5%, 28%);
+    border-radius: 10px;
+    padding: 2px;
+    border: solid 1px hsl(0, 0%, 70%);
+    color: hsl(0, 0%, 90%);
+}
+
+#back {
+    color: white;
+}
+#back:hover {
+    color: rgb(206, 206, 206);
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(187, 187, 187);
+}

@@ -1,0 +1,59 @@
+@keyframes slideIn {
+    0% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-10%);
+    }
+
+    /* 50% { transform: translateX(0); } */
+    75% {
+        transform: translateX(+10%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.console-text:hover {
+    animation: Pulse 7s forwards;
+}
+
+@keyframes Pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(2);
+    }
+
+}
+
+.console-text:hover {
+    animation: Pulse 7s forwards;
+}
+
+button:hover {
+    animation: slideIn 2s;
+}

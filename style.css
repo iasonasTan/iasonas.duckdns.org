@@ -1,0 +1,90 @@
+/* Mobile */
+@media (max-width: 768px) {
+    body {
+        background: url("res/background_mobile.png");
+    }
+
+    #blur-overlay {
+        padding: 7px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    body {
+        background: url("res/background_desktop.png");
+    }
+
+    .card {
+        width: 700px;
+    }
+
+    .root-card {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@font-face {
+    font-family: 'zalando_sans_bold';
+    src: url('./res/zalando_sans_bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dmserif_regular';
+    src: url('./res/dm_serif_display_regular.ttf') format('truetype');
+}
+
+body {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.card {
+    font-family: zalando_sans_bold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+
+.link-list {
+    margin-top: 10px;
+}
+
+#page-title {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: dmserif_regular;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.card, #page-title {
+    background-color: rgba(56, 59, 47, 0.596);
+    border: solid 2px rgba(154, 163, 130, 0.596);
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+#blur-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 1000;
+}
