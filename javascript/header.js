@@ -4,7 +4,7 @@ import { switchListener, init } from "./theme.js";
 
 window.addEventListener("load", () => {
     let headerNode = `<div>
-        <a href="http://iasonas.duckdns.org/index.html" id="back_btn">HOME</a>
+        <a href="../index.html" id="back_btn">HOME</a>
         <button id="switch_theme_btn">Switch Theme</button>
     </div>`;
     const bodyContents = document.body.innerHTML;
